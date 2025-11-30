@@ -1,0 +1,5 @@
+package src;
+public class MyArithmeticException extends ArithmeticException {
+    public MyArithmeticException() { super(); }
+    public MyArithmeticException(String message) { super(message); }
+}
